@@ -1,5 +1,5 @@
 import React from 'react'
-import Inner from './Inner';
+import {prefix, suffix} from './utils';
 
 type Props = {
   name: string,
@@ -7,6 +7,8 @@ type Props = {
 }
 
 export default function Hello({name, onChange}: Props) {
-  return <Inner message={`Hello, ${name}`} onChange={onChange}/>
+  return <div>
+    <button onClick={() => onChange(`${prefix}${name}${suffix}`)}>Click</button>
+  </div>
 };
 
