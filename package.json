@@ -1,32 +1,32 @@
 {
-  "scripts": {
-    "demo": "webpack-dev-server --open",
-    "test": "jest"
-  },
-  "dependencies": {
-    "lodash": "4.17.15",
-    "react": "16.10.2",
-    "react-dom": "16.10.2"
-  },
-  "devDependencies": {
-    "@testing-library/react": "9.3.0",
-    "@types/jest": "24.0.19",
-    "@types/karma": "3.0.3",
-    "@types/lodash": "4.14.149",
-    "@types/node": "12.11.1",
-    "@types/react": "16.9.9",
-    "@types/react-dom": "16.9.2",
-    "css-loader": "3.2.0",
-    "html-webpack-plugin": "3.2.0",
-    "jest": "24.9.0",
-    "karma": "4.4.0",
-    "source-map-loader": "0.2.4",
-    "style-loader": "1.0.0",
-    "ts-jest": "24.1.0",
-    "ts-loader": "6.2.0",
-    "typescript": "3.6.4",
-    "webpack": "4.41.2",
-    "webpack-cli": "3.3.9",
-    "webpack-dev-server": "3.8.2"
-  }
+    "scripts": {
+        "test": "jest",
+        "start": "webpack-dev-server --open"
+    },
+    "dependencies": {
+        "lodash": "4.17.15",
+        "react": "16.10.2",
+        "react-dom": "16.10.2"
+    },
+    "devDependencies": {
+        "@testing-library/react": "9.3.0",
+        "@types/jest": "24.0.19",
+        "@types/karma": "3.0.3",
+        "@types/lodash": "4.14.149",
+        "@types/node": "12.11.1",
+        "@types/react": "16.9.9",
+        "@types/react-dom": "16.9.2",
+        "css-loader": "3.2.0",
+        "html-webpack-plugin": "3.2.0",
+        "jest": "24.9.0",
+        "karma": "4.4.0",
+        "source-map-loader": "0.2.4",
+        "style-loader": "1.0.0",
+        "ts-jest": "24.1.0",
+        "ts-loader": "6.2.0",
+        "typescript": "3.6.4",
+        "webpack": "4.41.2",
+        "webpack-cli": "3.3.9",
+        "webpack-dev-server": "3.8.2"
+    }
 }
